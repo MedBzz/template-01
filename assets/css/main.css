@@ -22,7 +22,16 @@
 /* .slider-h{
     height: 70vh;
 } */
-.section-1 h2 ,.section-1 a{
+.section-1 h2 a{
     color: rgb(134, 202, 202);
     text-shadow: 0 0 3px rgb(9, 65, 117);
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+.navbar li > a{
+    color: rgb(34, 248, 255) !important;
+}
+.form{
+   background:  rgb(9, 117, 117);
 }
