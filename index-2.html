@@ -13,7 +13,7 @@
 </head>
 <body>
     <!--  -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top" id="header">
         <a class="navbar-brand" href="#"><img src="assets/img/logo.png" height="30px" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""><i class="fas fa-bars"></i></span>
@@ -57,7 +57,15 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active" style="background: url('assets/img/img-4.jpg') no-repeat; background-size: cover; background-position: center top;"></div>
+                <div class="carousel-item active" style="background: url('assets/img/img-4.jpg') no-repeat; background-size: cover; background-position: center top;">
+                    <div class="bg-transparent jumbotron justify-content-center align-items-end">
+                            <div class="container">
+                              <h1 class="display-3">polyor</h1>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nulla nesciunt, fugiat aut praesentium, culpa dignissimos ..</p>
+                              <p><a class="btn btn-outline-primary btn-lg" href="#" role="button">Learn more »</a></p>
+                            </div>
+                          </div>
+                </div>
                 <div class="carousel-item" style="background: url('assets/img/img-5.jpg') no-repeat; background-size: cover; background-position: center top;"></div>
                 <div class="carousel-item" style="background: url('assets/img/img-2.jpg') no-repeat; background-size: cover; background-position: center top;"></div>        
             </div>
@@ -79,6 +87,14 @@
         </div>
         <div class="container">
             <div class="row py-4 justify-content-center">
+                <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                    <h1 class="display-4">Lorem ipsum</h1>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptas labore saepe,
+                        ipsum alias et hic quia similique voluptates deleniti commodi accusantium 
+                        quasi eum debitis ut nulla reprehenderit. Pariatur, hic.
+                    </p>
+                </div>
                 <div class="card-deck">
                     <div class="card">
                       <img class="card-img-top" src="./assets/img/img-1.jpg" alt="Card image cap">
@@ -87,7 +103,7 @@
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                       </div>
                       <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted"><a href="#" class="btn btn-outline-info btn-sm">VOIRE PLUS</a></small>
                       </div>
                     </div>
                     <div class="card">
@@ -97,7 +113,7 @@
                         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                       </div>
                       <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted"><a href="#" class="btn btn-outline-info btn-sm">VOIRE PLUS</a></small>
                       </div>
                     </div>
                     <div class="card">
@@ -107,7 +123,7 @@
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                       </div>
                       <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted"><a href="#" class="btn btn-outline-info btn-sm">VOIRE PLUS</a></small>
                       </div>
                     </div>
                   </div>
@@ -123,44 +139,37 @@
             <div class="container">
                 <div class="row py-4 justify-content-center">
                     <div class="col-md-4 py-3">
-                        <h2 class="text-center"><a href="#"><i class="fas fa-3x fa-coffee"></i></a> </h2>
-                        <p class="text-center">
+                        <h2 class="text-center pb-md-4"><a href="#"><img src="./assets/img/svg/steering-wheel.svg" width="100px"></a> </h2>
+                        <p class="text-justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, 
-                            exercitationem natus. Delectus enim omnis quisquam corporis atque 
-                            temporibus maxime sed repudiandae, 
-                            iusto esse odit incidunt aliquam corrupti, dolores molestiae soluta.
+                            exercitationem natus. Delectus enim omnis quisquam...
                         </p>
-                        <button type="button" class="btn btn-info btn-block">Info</button>
+                        <button type="button" class="btn btn-outline-info">en savoire plus...</button>
                     </div>
                     <div class="col-md-4 py-3">
-                        <h2 class="text-center"><a href="#"><i class="fas fa-3x fa-concierge-bell"></i></a> </h2>
-                        <p class="text-center">
+                        <h2 class="text-center pb-md-4"><a href="#"><img src="./assets/img/svg/big-anchor.svg" width="100px"></a> </h2>
+                        <p class="text-justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, 
-                            exercitationem natus. Delectus enim omnis quisquam corporis atque 
-                            temporibus maxime sed repudiandae, 
-                            iusto esse odit incidunt aliquam corrupti, dolores molestiae soluta.
+                            exercitationem natus. Delectus enim omnis quisquam...
                         </p>
-                        <button type="button" class="btn btn-info btn-block">Info</button>
+                        <button type="button" class="btn btn-outline-info">en savoire plus...</button>
                     </div>
                     <div class="col-md-4 py-3">
-                        <h2 class="text-center"><a href="#"><i class="fas fa-3x fa-ship"></i></a> </h2>
-                        <p class="text-center">
+                        <h2 class="text-center pb-md-4"><a href="#"><img src="./assets/img/svg/boat.svg" width="100px"></a> </h2>
+                        <p class="text-justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, 
-                            exercitationem natus. Delectus enim omnis quisquam corporis atque 
-                            temporibus maxime sed repudiandae, 
-                            iusto esse odit incidunt aliquam corrupti, dolores molestiae soluta.
+                            exercitationem natus. Delectus enim omnis quisquam...
                         </p>
-                        <button type="button" class="btn btn-info btn-block">Info</button>
+                        <button type="button" class="btn btn-outline-info">en savoire plus...</button>
                     </div>
                     <div class="col-md-4 py-3">
-                        <h2 class="text-center"><a href="#"><i class="fas fa-3x fa-ship"></i></a> </h2>
-                        <p class="text-center">
+                        <h2 class="text-center pb-md-4"><a href="#"><img src="./assets/img/svg/cruise.svg" width="100px"></a> </h2>
+                        <p class="text-justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, 
-                            exercitationem natus. Delectus enim omnis quisquam corporis atque 
-                            temporibus maxime sed repudiandae, 
-                            iusto esse odit incidunt aliquam corrupti, dolores molestiae soluta.
+                            exercitationem natus. Delectus enim omnis quisquam... 
+                            
                         </p>
-                        <button type="button" class="btn btn-info btn-block">Info</button>
+                        <button type="button" class="btn btn-outline-info">en savoire plus...</button>
                     </div>
                 </div>
             </div>
@@ -253,29 +262,7 @@
                     </div>
                     <div class="col-md-8 col-sm-12 d-flex justify-content-center align-items-center py-4">
                         <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
-                        <i class="fas fa-heart text-danger"></i>
+                        billal
                         <i class="fas fa-heart text-danger"></i>
                     </div>
                 </div>
@@ -290,5 +277,18 @@
     <script src="assets/vendor/js/bootstrap.min.js"></script>
     <!--  -->
     <script src="assets/js/main.js"></script>
+    <script>
+     $(function() {
+        var header = $('#header');
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 100) {
+                header.addClass('dark');
+            } else {
+                header.removeClass('dark');
+            }
+        });
+    })
+    </script>
 </body>
 </html>

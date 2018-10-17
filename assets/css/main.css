@@ -35,3 +35,15 @@
 .form{
    background:  rgb(9, 117, 117);
 }
+.bg-transparent{
+    background: transparent;
+    color:  rgb(20, 70, 90);
+    text-shadow: 0 3px 5px aliceblue;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.dark{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9) !important;
+}
