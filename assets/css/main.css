@@ -8,16 +8,22 @@
 .fixed-top {
     position: absolute;
 }
-.footer a {
+/* .footer a {
     color: #FF7043;
     text-decoration: none;
 }
 .footer a:hover {
     color: #FF5722;
-}
+} */
 .head{
+    position: relative;
     height: 50vh;
-    background: rgb(9, 117, 117);
+    width: 100%;
+    background-image: url(../img/img-5.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    z-index: 1;
 }
 /* .slider-h{
     height: 70vh;
@@ -33,7 +39,7 @@
     color: rgb(34, 248, 255) !important;
 }
 .form{
-   background:  rgb(9, 117, 117);
+   background:  rgba(4, 59, 59, 0.4);
 }
 .bg-transparent{
     background: transparent;
